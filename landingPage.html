@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body{
+            background: linear-gradient(
+                to bottom left,
+                aqua 0%,
+                aqua 50%,
+                yellow 50%,
+                yellow 100%
+            );
+            width: 1400px;
+        }
+        h1{
+            font-size: 75px;
+            font-family: cursive;
+            text-align: center;
+            justify-content: center;
+            padding: 5px;
+            border: rgba(110, 24, 24, 0.521) solid 10px;
+            background: linear-gradient(
+                135deg, #ff00d2, #fed90f, #00a2ff, #09f1b8, #ff00d2, #fed90f, #00a2ff, #09f1b8
+            );
+            background-size: 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: animate 10s linear infinite;
+            background-color: red;
+        }
+        p{
+            font-size: 20px;
+            color: darkblue;
+            font-weight: bolder;
+            text-align: center;
+        }
+        img{
+            background-color: red;
+            padding: 10px;
+            border: blueviolet 5px solid;
+        }
+        tr{
+            border-collapse: separate;
+            border-spacing: 0 50px;
+        }
+        table{
+            align-items: center;
+            align-content: center;
+            align-self: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .query{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: initial;
+            color: crimson;
+        }
+        @keyframes animate{
+            0%{
+                background-position: 0%;
+            }
+            100%{
+                background-position: 500%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Ultra Sporting Competition</h1>
+    <table>
+        <tr>
+            <td><img src="D:\html folders\Pictures\jump.jpg" alt="" height="150" width="260"><br><p>Jumping Events</p></td>
+            <td><img src="D:\html folders\Pictures\throw.jpg" alt="" height="150" width="260"><br><p>Throwing Events</p></td>
+            <td><img src="D:\html folders\Pictures\run.jpg" alt="" height="150" width="260"><br><p>Sprinting Events</p></td>
+        </tr>
+        <tr>
+            <td><img src="D:\html folders\Pictures\relay.jpg" alt="" height="150" width="260"><br><p>Relay Races</p></td>
+            <td><img src="D:\html folders\Pictures\weightlift.jpg" alt="" height="150" width="260"><br><p>Weightlifting</p></td>
+            <td><img src="D:\html folders\Pictures\hurdles.jpg" alt="" height="150" width="260"><br><p>Hurdle Events</p></td>
+        </tr>
+    </table>
+    <p class="query">Date: 25th December, 2023 <br>Venue: Sailen Manna Stadium, Howrah Maidan, Howrah-711101 <br>For Queries Contact: +916290737399</p>
+</body>
+</html>
